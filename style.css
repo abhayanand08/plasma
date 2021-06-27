@@ -304,7 +304,7 @@ font-family: 'Arimo', sans-serif;
 @media only screen and (max-width:1135px)  {
     .first{
         background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("https://wallpaper.dog/large/5446299.jpg");
-        width: 110vmax; 
+        width: 100vmax; 
         background-position: center;
         background-repeat: no-repeat;
        height: 110vh;
@@ -319,7 +319,7 @@ font-family: 'Arimo', sans-serif;
     }
     .navbar{
         height: 50px;
-        width: 110vmax;
+        width: 100vmax;
     }
     .firstsection{
         height: 110vh;
@@ -329,7 +329,7 @@ font-family: 'Arimo', sans-serif;
         display: none;
     }
     .second{
-        width: 110vmax;
+        width: 100vmax;
        
         display: inline-block;
       align-items: center;
@@ -339,7 +339,7 @@ font-family: 'Arimo', sans-serif;
       text-align: center;
     }
     .third{
-        width: 110vmax;
+        width: 100vmax;
        
         display: inline-block;
       align-items: center;
@@ -350,10 +350,10 @@ font-family: 'Arimo', sans-serif;
      
     }
     .formpage{
-        width: 110vmax;
+        width: 100vmax;
     }
     .laster{
-        width: 110vmax;
+        width: 100vmax;
         font-size: 1rem;
     }
     .change{
