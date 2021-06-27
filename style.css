@@ -3,7 +3,13 @@
     margin: 0px;
     padding: 0px;
 }
-
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url("Dual\ Ball-1s-200px.gif") no-repeat center;
+    z-index: 99999;
+}
 .first{
     background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("https://wallpaper.dog/large/5446299.jpg");
     width: 100%; 
@@ -329,7 +335,7 @@ font-family: 'Arimo', sans-serif;
         display: none;
     }
     .second{
-        width: 100vmax;
+        
        
         display: inline-block;
       align-items: center;
@@ -339,7 +345,7 @@ font-family: 'Arimo', sans-serif;
       text-align: center;
     }
     .third{
-        width: 100vmax;
+       
        
         display: inline-block;
       align-items: center;
