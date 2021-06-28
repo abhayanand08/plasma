@@ -336,7 +336,7 @@ font-family: 'Arimo', sans-serif;
 @media only screen and (max-width:1135px)  {
     .first{
         background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("https://wallpaper.dog/large/5446299.jpg");
-        width: 100vmax; 
+       
         background-position: center;
         background-repeat: no-repeat;
        height: 110vh;
@@ -351,41 +351,22 @@ font-family: 'Arimo', sans-serif;
     }
     .navbar{
         height: 50px;
-        width: 100vmax;
+        
         position: sticky;
         top: 0;
     }
     .firstsection{
         height: 110vh;
+        text-align: center;
     }
     
     .search{
         display: none;
     }
-    .third{
-        padding: 60px 0;
-        display: inline-block;
-        flex-direction: none;
-       
-      
-    }
-    .leftty{ 
-        padding: 0 50px;
-        display: inline-block;
-        align-items: center;
-       
-        justify-content: space-evenly;
-       min-width: 180%;
-        text-align: center;
-       
-       
-     
-    }
-    .formpage{
-        width: 100vmax;
-    }
+    
+    
     .laster{
-        width: 100vmax;
+       
         font-size: 1rem;
     }
     .change{
@@ -400,14 +381,104 @@ font-family: 'Arimo', sans-serif;
     }
     .con h2{
         font-size: 1.6rem;
+        
     }
-    .right{
-        padding: 0 50px;
-        display: inline-block;
-        align-items: center;
-       
-        justify-content: space-evenly;
-        max-width: 180%;
+    .second{
+        padding: 60px 0;
+        display: flex;
+        flex-direction: column; 
+        max-width: 105%; 
+    }
+  .third{
+      padding: 60px 0;
+      display: flex;
+      flex-direction: column;
+      max-width: 105%; 
+      
+  }  
+  .right h2{
+    font-size: 3rem;
+    padding-bottom:20px ;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.leftty h2{
+    font-size: 3rem;
+    padding-bottom:20px ;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+}
+@media only screen and (max-width:768px) {
+    #bigtext{
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+    #smalltext{
+        font-weight: bold;
+        font-size: 0.6rem;
+        margin-top: 20px;
         text-align: center;
+        
+    } 
+    .btn2{
+        margin: 70px 10px;
+        margin-top: 80px;
+        padding: 8px 20px;
+        background-color: white;
+        border: 1.8px solid white;
+        border-radius: 30px;
+        font-size: 0.5rem;
+        font-weight: bolder;
+        cursor: pointer;
+        color: black;
+    }
+    .btn3{
+        margin: 70px 10px;
+        margin-top: 80px;
+        padding: 8px 12px;
+        background-color: transparent;
+        border: 1.8px solid black;
+        border-radius: 30px;
+        font-size: 0.5rem;
+        font-weight: bolder;
+        cursor: pointer;
+        color: white;
+    }
+    p{
+        font-size: 0.7rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    .right h2{
+        font-size: 1.35rem;
+        padding-bottom:20px ;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .leftty h2{
+        font-size: 1.35rem;
+        padding-bottom:20px ;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .img-cn{
+        width: 100px;
+        height: 100px;
+        border:2px solid white;
+        border-radius: 50%;
+       margin-top: 50px;
+  
+    }
+    .con h2{
+        font-size: 1.4rem;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 20px 20px;
+        padding-top: 50px;
+    }
+    .change{
+        width:80%;
+        border:1.5px solid black ;
+        border-radius: 10px;
+        padding: 4px;
+        margin: 10px 0;
+        background-color:white;
     }
 }
