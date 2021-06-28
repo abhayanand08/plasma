@@ -352,6 +352,8 @@ font-family: 'Arimo', sans-serif;
     .navbar{
         height: 50px;
         width: 100vmax;
+        position: sticky;
+        top: 0;
     }
     .firstsection{
         height: 110vh;
@@ -360,25 +362,23 @@ font-family: 'Arimo', sans-serif;
     .search{
         display: none;
     }
-    .second{
-        
-       
-        display: inline-block;
-      align-items: center;
-     
-      justify-content: space-evenly;
-     min-width: 180%;
-      text-align: center;
-    }
     .third{
-       
-       
+        padding: 60px 0;
         display: inline-block;
-      align-items: center;
-     
-      justify-content: space-evenly;
-      max-width: 180%;
-      text-align: center;
+        flex-direction: none;
+       
+      
+    }
+    .leftty{ 
+        padding: 0 50px;
+        display: inline-block;
+        align-items: center;
+       
+        justify-content: space-evenly;
+       min-width: 180%;
+        text-align: center;
+       
+       
      
     }
     .formpage{
@@ -403,5 +403,11 @@ font-family: 'Arimo', sans-serif;
     }
     .right{
         padding: 0 50px;
+        display: inline-block;
+        align-items: center;
+       
+        justify-content: space-evenly;
+        max-width: 180%;
+        text-align: center;
     }
 }
