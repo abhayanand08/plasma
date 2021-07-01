@@ -341,6 +341,7 @@ font-family: 'Arimo', sans-serif;
         background-repeat: no-repeat;
        height: 110vh;
     }
+    
 
     .burger{
         display: block;
@@ -410,9 +411,26 @@ font-family: 'Arimo', sans-serif;
 }
 }
 @media only screen and (max-width:768px) {
+    .first{
+        background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("https://wallpaper.dog/large/5446299.jpg");
+       
+        background-position: center;
+        background-repeat: no-repeat;
+       height: 70vh;
+    }
+    .firstsection{
+        height: 80vh;
+    }
+    .btn2{
+        margin: 30px 8px;
+    }
+    .btn3{
+        margin: 30px 8px;
+    }
     #bigtext{
         font-weight: bold;
         font-size: 1.4rem;
+       
     }
     #smalltext{
         font-weight: bold;
@@ -495,5 +513,8 @@ font-family: 'Arimo', sans-serif;
         font-size: 0.5rem;
         font-weight: bold;
     
+    }
+    .formpage{
+        height: 500px;
     }
 }
